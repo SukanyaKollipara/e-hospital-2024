@@ -104,7 +104,8 @@
       form.append("file", blob, recordList[index].file.originalname);
 
       $.ajax({
-        url: "https://image-prediction.herokuapp.com/upload",
+        // url: "https://image-prediction.herokuapp.com/upload",
+        url: "https://ram2.herokuapp.com/upload",
         type: "POST",
         data: form,
         contentType: false,
